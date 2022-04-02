@@ -3,6 +3,7 @@ import { ButtonCounter } from '@components/ButtonCounter/ButtonCounter'
 import { Hero } from '@components/Hero/Hero'
 import { NavBar } from '@components/NavBar/NavBar'
 import type { NextPage } from 'next'
+//Realizado por Victor marquez
 const Home: NextPage = () => {
   return (
     <>
