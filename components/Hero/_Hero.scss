@@ -1,0 +1,28 @@
+.hero{
+   width: 500px;
+   height: 400px;
+   h1{
+       color: $color-black;
+   }
+   &__price{
+       margin-top: 15px;
+    font-size: 25px;
+   }
+   &__description{
+       width: 310px;
+       height: 60px;
+       margin-top: 23px;
+       p{
+           text-align: left;
+           color: $color-grey;
+       }
+    }
+   span{
+       display: block;
+       margin-top: 29px;    
+       color: $color-blue;
+    }
+    @include small{
+        width: 100%;
+    }
+}

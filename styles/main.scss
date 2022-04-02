@@ -1,0 +1,15 @@
+//GLOBALS
+@import './mixins';
+@import './color';
+@import './fonts';
+@import './base';
+
+//COMPONENTS    
+@import '../components/NavBar/Navbar';
+@import '../components/cart/Cart';
+@import '../components/ButtonCounter/ButtonCounter';
+@import '../components/ButtonAdd/ButtonAdd';
+@import '../components/Hero/Hero';
+
+//Page
+@import './Home';

@@ -1,0 +1,5 @@
+.buttonAdd{
+    @include button($color-red);
+    color: $color-white;
+    justify-content: center;
+}

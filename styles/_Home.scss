@@ -1,0 +1,71 @@
+.buttonContainer{
+  width: 270px;
+  height: 46px;
+  display: flex;
+    
+  justify-content: space-between;
+  margin-left: 66px;
+  @include tablet{
+    margin-left: 30%;
+  } 
+  @include small{
+    margin-top: 100px;
+  }
+}
+.container{
+  width: 100%;
+  height: 550px;
+  padding-left: 65px;
+  padding-right: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  @include tablet{
+    height: 700px;
+    padding: 0;
+    align-items: center;
+    flex-direction: column-reverse;
+} 
+@include small{
+  height: 700px;
+  padding: 0;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+       
+}
+.image{
+  width: 50%;
+  height: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+  } 
+  @include small{
+    width: 400px;
+  } 
+}
+.sidebar{
+  width: 30px;
+  height: 100%;
+  padding-top: 60px;
+  ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    li{
+      margin: 0;
+      font-size: 17px;
+      list-style: none;
+      transform: rotate(-90deg);
+      margin-top: 100px;
+    }
+  }
+  @include tablet{
+    display: none;
+  }
+  @include small{
+    display: none;
+  }
+}
